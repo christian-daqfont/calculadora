@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+.contenedor{
+    width: 40%;
+    max-width: 500px;
+    min-width: 400px;
+    height: 650px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.texto{
+    width: 100%;
+    height: 20%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+.principal{
+    width: 100%;
+    height: 70%;
+    background-color: aliceblue;
+}
+.principal > span {
+    font: italic;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    border: none;
+    font-size: 500%;
+    color: black;
+    background-color: aliceblue;
+    font-weight: bold;
+}
+.secundaria{
+    width: 100%;
+    height: 30%;
+    background-color:aliceblue;
+}
+.teclas{
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.igual{
+    background-color: black;
+}
+.teclas > div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 235, 235);
+    color: black;
+    
+}
+button:hover{
+    background-color: #ced7dd;
+    cursor: pointer;
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 140%;
+    background-color: rgb(241, 240, 240);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
